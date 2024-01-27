@@ -1,0 +1,372 @@
+* {
+    font-family: sans-serif;
+    color: black;
+    font-size: 18px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+body {
+    margin: 0;
+    font-weight: 500;
+    text-transform: capitalize;
+
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+:root {
+    --primary-color: #F26722;
+}
+
+/* navbar */
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5% 3% 1.5% 3%;
+}
+
+.nav-links-container {
+    display: block;
+}
+
+.nav-section .get-brochure {
+    display: block;
+    background-color: var(--primary-color);
+    border: #F26722;
+    padding: 15px 20px;
+    border-radius: 0 0 26px 0;
+    color: #fff;
+    font-size: 20px;
+    text-transform: capitalize;
+
+}
+
+.nav-section img {
+    width: 200px;
+    height: auto;
+}
+
+.nav-links {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 20px;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+
+.nav-links:hover {
+    color: var(--primary-color);
+}
+
+.nav-links:active {
+    color: var(--primary-color);
+}
+
+
+/* hero section */
+.section1 {
+    position: relative;
+    background-color: #000000;
+    background-image: url(https://www.ashokagrandeur.com/wp-content/uploads/2024/01/ashoka-grandeur-banner-1.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 6rem 5rem;
+
+}
+
+.background-overlay {
+    background-color: #00000066;
+    /* opacity: 0.5; */
+    /* color: #00000083; */
+    /* transition: background 0.3s; */
+    border-radius: 0.3s;
+    /* opacity: 0.3s; */
+    z-index: 500;
+
+}
+
+.section1 h1 {
+    margin: 0;
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    line-height: 1;
+    overflow: hidden;
+}
+
+.section1 h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: sans-serif;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+}
+
+.side1 {
+    /* background-color: #fff; */
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.btno {
+    margin-top: 1rem;
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0px;
+    fill: #F26622;
+    color: #F26622;
+    background-color: #ffffff;
+    border-style: solid;
+    border-width: 2px 2px 2px 2px;
+    border-color: #F26622;
+    border-radius: 20px 20px 20px 20px;
+    padding: 15px 25px 15px 25px;
+    line-height: 1;
+    text-align: center;
+}
+
+
+/* Section-2 : PROPERTY DESCRIPTION  */
+.section2 {
+    width: 100%;
+    margin: 2rem 2rem;
+    text-align: center;
+    display: inline-block;
+    text-align: center;
+    overflow: auto;
+}
+
+.section2 h3 {
+    color: #3A3A3A;
+    font-family: sans-serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    line-height: 1.2em;
+    margin: auto;
+    padding: 0 0 6px 0;
+    overflow: hidden;
+}
+
+.section2 h5 {
+    color: #656565;
+    font-size: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 1;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.special-div {
+    margin: 40px 0px 0px 0px;
+    text-align: center;
+    color: #333333;
+    font-size: 1.3rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    text-transform: none;
+    width: 95%;
+    text-align: center;
+    overflow: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    /* Creates 6 equal-width columns */
+    gap: 10px;
+    /* Optional gap between columns */
+    padding-right: 8rem;
+}
+
+/* Style the grid items (optional) */
+.grid-item {
+    background-color: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: max-content;
+    overflow-x: hidden;
+}
+
+.grid-item img {
+    vertical-align: middle;
+    display: inline-block;
+    height: auto;
+    max-width: 100%;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: auto;
+}
+
+.grid-item h2 {
+    color: #59108D;
+    font-size: 3rem;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    line-height: 1;
+    overflow: hidden;
+}
+
+
+.section3 {
+    background-image: url(https://www.ashokagrandeur.com/wp-content/uploads/2021/02/bg-slide-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 5rem;
+    overflow: hidden;
+
+}
+
+.content1 {
+    width: 70%;
+    background-color: #00000083;
+    /* opacity: 0.5; */
+    padding: 4rem 4rem;
+    z-index: 300;
+}
+
+.content2 {
+    position: relative;
+    top: 0;
+    width: 30%;
+    overflow: hidden;
+}
+
+/* Section Appointent:  */
+.appointment {
+    background-image: url(https://www.ashokagrandeur.com/wp-content/uploads/2021/02/bedroom-2.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2rem 2rem;
+}
+
+/* Section 4 : pricing table */
+.section4 {
+    margin: 4rem 4rem;
+}
+
+.section4 input,
+textarea {
+    padding: 10px;
+    font-size: 14px;
+    margin-bottom: 10px;
+    border: 1px solid #cdcdcc;
+    width: 100%;
+    max-width: 100%;
+    height: 50px;
+    transition: all .2s ease-in-out;
+
+}
+
+/* Toggle menu styles */
+@media only screen and (max-width: 767px) {
+    .nav-links-container {
+        display: none;
+    }
+
+    .show-links {
+        display: block;
+        position: absolute;
+        top: 60px;
+        /* Adjust the top position based on your design */
+        left: 0;
+        width: 100%;
+        background-color: #f8f9fa;
+        /* Add a background color */
+        box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+        z-index: 100;
+    }
+
+    .nav-links-container nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .nav-links-container a {
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: #495057;
+    }
+}
+
+/* media screen */
+/* Media query for responsiveness */
+@media only screen and (max-width: 768px) {
+    .nav-links-container {
+        display: none;
+        /* Display the navigation links for larger screens */
+    }
+
+    .nav-section .get-brochure {
+        display: block;
+        background-color: var(--primary-color);
+        border: #F26722;
+        padding: 10px 15px;
+        border-radius: 0 0 20px 0;
+        color: #fff;
+        font-size: 15px;
+        text-transform: capitalize;
+
+    }
+
+    .nav-section img {
+        width: 150px;
+        height: auto;
+    }
+
+    .section1 {
+        position: relative;
+        background-color: #000000;
+        background-image: url(https://www.ashokagrandeur.com/wp-content/uploads/2024/01/ashoka-grandeur-banner-1.webp);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0 0 0;
+
+        width: 100%;
+        height: auto;
+        text-align: center;
+
+    }
+
+    .section1 h1 {
+        font-size: 2rem;
+    }
+
+    .section1 h2 {
+        font-size: 1rem;
+    }
+    .section1 p {
+        font-size: 1rem;
+    }
+}
