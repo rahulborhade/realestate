@@ -6,3 +6,12 @@ const toggleButton = document.querySelector('.get-brochure');
 toggleButton.addEventListener('click', () => {
     navLinksContainer.classList.toggle('show-links');
 });
+
+
+// carousel
+$(document).ready(function () {
+    $('.carousel').carousel({
+        interval: 3000 // Set the interval to 3 seconds
+    });
+});
+

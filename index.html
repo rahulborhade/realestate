@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="./css/style.css">
     <!-- Font Awesome CSS CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <!-- Bootstrap CSS CDN -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/css/bootstrap.min.css">
     <script src="./script/scrip.js"></script>
+
 </head>
-<style>
-</style>
 
 <body>
     <!-- Navbar -->
@@ -33,9 +33,71 @@
         </div>
     </div>
 
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+
+        <div class="carousel-inner background-overlays">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active">
+                <video class="d-block w-100" autoplay muted loop>
+                    <source src="./images/The Right Lifestyle.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                    <h1>Building Dreams, Creating Homes</h1>
+                    <p>Transforming visions into luxurious living spaces</p>
+                    <button class="btno">
+                        BOOK YOUR SCHEDULE
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item">
+                <video class="d-block w-100" autoplay muted loop>
+                    <source src="./images/The Right Lifestyle (1).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                    <h1>Your Home, Your Legacy</h1>
+                    <p>Where Quality Meets Home</p>
+                    <button class="btno">
+                        BOOK YOUR SCHEDULE
+                    </button>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item">
+                <video class="d-block w-100" autoplay muted loop>
+                    <source src="./images/The Right Lifestyle (2).mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                    <h1>Dream It, Build It, Live It</h1>
+                    <p>Unlock the door to extraordinary living experiences </p>
+                    <button class="btno">
+                        BOOK YOUR SCHEDULE
+                    </button>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Remove Navigation Arrows -->
+        <!-- <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
+
+    </div>
 
     <!-- HEro section -->
-    <section class="section1 ">
+    <!-- <section class="section1 ">
         <div class="side1">
             <h1>
                 Ashoka Grandeur</h1>
@@ -57,7 +119,7 @@
             </button>
         </div>
         <div></div>
-    </section>
+    </section> -->
     <section class="section2">
         <h3>Property Description</h3>
         <h5>A FEW WORDS ABOUT THE PROJECT</h5>
@@ -68,43 +130,52 @@
             city with zero wastage. High Quality homes with efficient space planning and making every inch of home
             to be in use by end user, making stand out from competition.
         </div>
-        <div class="grid-container">
-            <!-- Grid Items (6 columns) -->
-            <div class="grid-item">
-                <img src="./images/image-icon1.png" alt="">
-                <h2>2025</h2>
-                <p><strong>Possession</strong></p>
+        <div class="d-flex">
+            <div>
+                <div class="grid-container">
+                    <!-- Grid Items (6 columns) -->
+                    <div class="grid-item">
+                        <img src="./images/image-icon1.png" alt="">
+                        <h2 id="element1">0</h2>
+                        <p><strong>Possession</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/image-icon2.png" alt="">
+                        <h2 id="element2">0</h2>
+                        <p><strong>Area</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/image-icon3.png" alt="">
+                        <h2 id="element3">0</h2>
+                        <p><strong>Bedroom</strong></p>
+                    </div>
+                </div>
+                <div class="grid-container">
+                    <div class="grid-item">
+                        <img src="./images/image-icon4.png" alt="">
+                        <h2 id="element4">0</h2>
+                        <p><strong>Bathroom</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/image-icon5.png" alt="">
+                        <h2 id="element5">0</h2>
+                        <p><strong>Floor</strong></p>
+                    </div>
+                    <div class="grid-item">
+                        <img src="./images/image-icon6.png" alt="">
+                        <h2 id="element6">0</h2>
+                        <p><strong>Parking </strong></p>
+                    </div>
+                </div>
+                <div>
+                    <button
+                        style="background-color: var(--primary-color); border: none; font-family: sans-serif; font-size: 0.9rem; color: #ffffff; padding: 13px 30px; border-radius: 25px;">Schedule
+                        a visit</button>
+                </div>
             </div>
-            <div class="grid-item">
-                <img src="./images/image-icon2.png" alt="">
-                <h2>383-431</h2>
-                <p><strong>Area</strong></p>
+            <div class="mainimg">
+                <img src="./images/ashoka-grandeur-banners.jpg" alt="">
             </div>
-            <div class="grid-item">
-                <img src="./images/image-icon3.png" alt="">
-                <h2>01</h2>
-                <p><strong>Bedroom</strong></p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image-icon4.png" alt="">
-                <h2>02</h2>
-                <p><strong>bathroom</strong></p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image-icon5.png" alt="">
-                <h2>21</h2>
-                <p><strong>floot</strong></p>
-            </div>
-            <div class="grid-item">
-                <img src="./images/image-icon6.png" alt="">
-                <h2>01</h2>
-                <p><strong>Parking </strong></p>
-            </div>
-        </div>
-        <div>
-            <button
-                style="background-color: var(--primary-color); border: none; font-family: sans-serif; font-size: 0.9rem; color: #ffffff; padding: 13px 30px; border-radius: 25px;">Schedule
-                a visit</button>
         </div>
     </section>
 
@@ -261,7 +332,7 @@
 
 
     <!-- Section 4 : pricing table -->
-    <section class="section4">
+    <!-- <section class="section4">
         <h1
             style="color: var(--primary-color); font-size: 2.5rem; font-weight: 500; text-align: center; margin: 0; padding: 10px 10px;">
             Pricing</h1>
@@ -526,6 +597,104 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <section class="section2 d-flex p-5 text-left">
+        <div style="width: 60%;">
+            <h3>Ashoka Grandeur</h3>
+            <h5 style="margin: 0; padding: 0;">A PERFECT DREAM HOMET</h5>
+            <div class=" text-left" style="margin: 0; padding: 10px 20px 0 0; font-family: sans-serif;">
+                ASHOKA GRANDEUR Is Strategically Located In Heart Of Bhandup City. The Location Offers A Quick
+                Connectivity To Other Essential Destinations Like Schools, Colleges, Malls And Major Commercial Hubs.
+                ASHOKA GRANDEUR Is Strategically Located And Take Up A 30 Min Challenge NOTHING IS FAR FROM HOME. The
+                Projects Is Located OFF LBS, BHANDUP West.
+            </div>
+        </div>
+        <div style="width: 40%;">
+            <div id="carouselExample" class="carpet slide pr-5" data-ride="carousel">
+
+                <div class="carousel-inner background-overlays">
+
+                    <!-- Slide 1 -->
+                    <div class="carousel-item active">
+                        <!-- <video autoplay muted loop>
+                            <source src="./images/The Right Lifestyle.mp4" type="video/mp4">
+                            Your browser does not support the video tag.
+                        </video> -->
+                        <img class="d-block " style="object-fit: cover; width: 100%; height: 300px;"
+                            src="./images/carpet1.jpg" alt="1bhk carpet ashoka grandeur">
+                        <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                            <h1>1Bhk</h1>
+                            <p>383 carpet</p>
+                            <button class="btno">
+                                ₹68.99 Lacs* Onwards
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 2 -->
+                    <div class="carousel-item">
+                        <img class="d-block " style="object-fit: cover; width: 100%; height: 300px;"
+                            src="./images/carpet2.jpg" alt="1bhk carpet ashoka grandeur">
+                        <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                            <h1>1Bhk</h1>
+                            <p>386 carpet</p>
+                            <button class="btno">
+                                Request for price
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Slide 3 -->
+                    <div class="carousel-item">
+                        <img class="d-block" style="object-fit: cover; width: 100%; height: 300px;"
+                            src="./images/carpet3.jpg" alt="1bhk carpet ashoka grandeur">
+                        <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                            <h1>1Bhk</h1>
+                            <p>394 carpet</p>
+                            <button class="btno">
+                                Request for price
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block " style="object-fit: cover; width: 100%; height: 300px;"
+                            src="./images/carpet4.jpg" alt="1bhk carpet ashoka grandeur">
+                        <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                            <h1>1Bhk</h1>
+                            <p>425 carpet</p>
+                            <button class="btno">
+                                Request for price
+                            </button>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block " style="object-fit: cover; width: 100%; height: 300px;"
+                            src="./images/carpet5.jpg" alt="1bhk carpet ashoka grandeur">
+                        <div class="carousel-caption text-center align-items-center d-block d-md-block">
+                            <h1>1Bhk</h1>
+                            <p>431 carpet</p>
+                            <button class="btno">
+                                Request for price
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <!-- Remove Navigation Arrows -->
+                <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+
+            </div>
+        </div>
+
     </section>
 
     <!-- appointment section -->
@@ -604,13 +773,140 @@
     </section>
 
     <!-- footer -->
-    <footer style="width: 100%; background-color: #000000; color: #FFFFFF;">
+    <!-- <footer style="width: 100%; background-color: #000000; color: #FFFFFF;">
         <p style="color: #FFFFFF; text-align: center; padding-top: 15px ; ">©2021 Ashoka Grandeur. Rera no :
             P51800027876</p>
-    </footer>
+    </footer> -->
+    <!-- <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script> -->
+    <!------ Include the above in your HEAD tag ---------->
+
+    <!-- Footer -->
+    <section id="footer">
+        <div class="container">
+            <div class="row text-center text-xs-center text-sm-left text-md-left">
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Home</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>About</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>FAQ</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Get
+                                Started</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Videos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Quick links</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Home</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>About</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>FAQ</a>
+                        </li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Get
+                                Started</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i class="fa fa-angle-double-right"></i>Videos</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xs-12 col-sm-4 col-md-4">
+                    <h5>Floor Area</h5>
+                    <ul class="list-unstyled quick-links">
+                        <li><a href="https://www.ashokagarndeur.com"><i
+                                    class="fa fa-angle-double-right"></i>1BHK/383</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i
+                                    class="fa fa-angle-double-right"></i>1BHK/384</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i
+                                    class="fa fa-angle-double-right"></i>1BHK/396</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i
+                                    class="fa fa-angle-double-right"></i>1BHK/425</a></li>
+                        <li><a href="https://www.ashokagarndeur.com"><i
+                                    class="fa fa-angle-double-right"></i>1BHK/431</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <!-- <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+                    <ul class="list-unstyled list-inline social text-center">
+                        <li class="list-inline-item"><a href="https://www.ashokagarndeur.com"><i
+                                    class="fas fa-facebook"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.ashokagarndeur.com"><i
+                                    class="fas fa-twitter"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.ashokagarndeur.com"><i
+                                    class="fas fa-instagram"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.ashokagarndeur.com"><i
+                                    class="fas fa-google-plus"></i></a></li>
+                        <li class="list-inline-item"><a href="https://www.ashokagarndeur.com" target="_blank"><i
+                                    class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+                <hr>
+            </div> -->
+            <div class="row">
+                <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center">
+                    <p style="color: #000000; text-align: center; padding-top: 15px ; ">©2021 Ashoka Grandeur. Rera no :
+                        P51800027876</p>
+                </div>
+                <hr>
+            </div>
+        </div>
+    </section>
+    <!-- ./Footer -->
+
+    <script>
+        // Function to start counters for each element
+        function startCounters() {
+            // Set target values for each counter
+            const targetValues = [2025, 383, 1, 2, 21, 1];
+
+            // Set the interval for updating counters
+            const interval = 2; // milliseconds
+
+            // Iterate through each element and start the counter
+            for (let i = 1; i <= 6; i++) {
+                const elementId = "element" + i;
+                const targetValue = targetValues[i - 1];
+
+                // Call the counter function for each element
+                counter(elementId, targetValue, interval * i);
+            }
+        }
+
+        // Counter function
+        function counter(elementId, targetValue, interval) {
+            let currentValue = 0;
+
+            // Update the counter value at regular intervals
+            const counterInterval = setInterval(() => {
+                document.getElementById(elementId).textContent = currentValue;
+
+                // Stop the counter when the target value is reached
+                if (currentValue >= targetValue) {
+                    clearInterval(counterInterval);
+                } else {
+                    currentValue++;
+                }
+            }, interval);
+        }
+
+        // Start the counters when the document is loaded
+        document.addEventListener("DOMContentLoaded", startCounters);
+    </script>
 
     <!-- Bootstrap JS CDN (Popper.js is included in the bundle) -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.5.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap 3 JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 
 </html>
